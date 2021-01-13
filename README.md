@@ -1,2 +1,2 @@
 # Table-for-5
-Table reservation maintenance wedsite
+Table reservation maintenance website
