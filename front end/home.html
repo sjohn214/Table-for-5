@@ -22,5 +22,24 @@
     </div>
     
       </div>
+      <script type="text/javascript">
+        // Question: What does this code do?
+        $("#add-btn").on("click", function(event) {
+          event.preventDefault();
+          var newTable = {
+            name: $("#name").val(),
+            email: $("#email").val(),
+            phoneNumber: $("#phoneNumber").val(),
+            id: $("#id").val(),
+          };
+    
+          // Question: What does this code do??
+          $.post("/api/tables", newTable)
+            .then(function(data) {
+              console.log("tables.html", data);
+              alert("Adding new table...");
+            });
+        });
+      </script>
     </body>
 </html>
