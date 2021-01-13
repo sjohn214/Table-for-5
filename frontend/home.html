@@ -8,17 +8,18 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
 
 </head>
-<body>
+<body style="background-color: rgb(194, 241, 253);">
 
-  <div class="container">
+  <div class="container" style="display: center; border: 3px black solid;">
     <div class="jumbotron">
       <h1>Table for 5</h1>
-      <h3>We have limited spots available! Make a reservation.</h3>
+      <h3>We have limited spots available! Make a reservation. 🍽️</h3>
       <hr>
-      <a href="/"><button class="btn btn-danger btn-lg"><span class="fa fa-eye"></span> View Tables</button></a>
-      <a href="/"><button class="btn btn-primary btn-lg"><span class="fa fa-eye"></span> Make a Reservation</button></a>
+      <a href="/"><button class="btn btn-danger btn-lg" style="display:center;"><span class="fa fa-eye"></span> View Tables</button></a>
+      <a href="/"><button class="btn btn-primary btn-lg"style="display:center;"><span class="fa fa-eye"></span> Make a Reservation</button></a>
     </div>
     
       </div>
@@ -42,4 +43,15 @@
         });
       </script>
     </body>
+    <hr>
+            <h5 class=“text-center”>
+              <small>Control Panel</small>
+            </h5>
+            <p>
+                <a href=“#” id=“clear”>Clear Table</a>
+                 |
+                <a href=“/api/tables”>API Table Link</a>
+                 |
+                <a href=“/api/waitlist”>API Table List</a>
+            </p>
 </html>
