@@ -1,0 +1,19 @@
+{
+  "name": "table-for-5",
+  "version": "1.0.0",
+  "description": "Table Reservation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjohn214/Table-for-5.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjohn214/Table-for-5/issues"
+  },
+  "homepage": "https://github.com/sjohn214/Table-for-5#readme"
+}
